@@ -1,0 +1,9 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  openfaas-cloud-test:
+    lang: go
+    handler: ./openfaas-cloud-test
+    image: synob/openfaas-cloud-test:latest
