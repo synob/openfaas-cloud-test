@@ -8,3 +8,4 @@ functions:
     handler: ./openfaas-cloud-test
     image: synob/openfaas-cloud-test:latest
 
+
